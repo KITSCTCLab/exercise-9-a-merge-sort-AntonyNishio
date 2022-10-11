@@ -38,7 +38,7 @@ def merge_sort(data) -> None:
  
 def printList(data):
     for i in range(len(data)):
-        print(data[i], end=" ")
+        print(data[i], end=" ,")
     print()
 
 
