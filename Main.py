@@ -10,9 +10,9 @@ def merge_sort(data) -> None:
  
         R = data[mid:]
  
-        mergeSort(L)
+        merge_Sort(L)
  
-        mergeSort(R)
+        merge_Sort(R)
  
         i = j = k = 0
         while i < len(L) and j < len(R):
